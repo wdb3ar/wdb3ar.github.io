@@ -244,7 +244,7 @@ $(function() {
             numOfWorkers: 2,
             frequency: 10,
             decoder: {
-                readers : ["code_128_reader", "ean_reader", "upc_reader"]
+                readers : ["upc_reader", "ean_reader", "code_128_reader"]
             },
             locate: true
         },
